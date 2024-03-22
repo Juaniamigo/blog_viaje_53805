@@ -6,8 +6,9 @@
 }
 
 body{
-    font-family: "Roboto" , sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
+    
 }
 
 .imagen{
@@ -33,40 +34,83 @@ body{
 
     
 }
-.carrousel-item{
+
+
+    
+
+.imgFondo{
+    background-image: url(../assets/img/carru\ 1.jpg);
+    background-size: cover;
+    background-position: center;
     height: 80vh;
-
-}
-.carrousel-item img{
-    height: 100%;
-    object-fit: cover
-}
-
-
+    .tituloPrincipal{
+        font-size: 5rem;
+        font-weight: 800;
+        
+        
+    }
     
+}
+.parrafoPrincipal{
+    font-size: 3rem;
+}
+
+   
+
+
+.tituloPrincipal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
     
+}
 
-.elfooter{justify-content: space-between;
-    padding-top: 50px;
-    .contenidoFooter{
-        padding-top: 20px;
-    }
-    .infoFooter{
-        padding-top: 20px;
-    }
-    .encontranosFooter{
-        padding-top: 20px;
-    }
-    .redesFooter{
-        padding-top: 20px;
 
-    }
-    .suscribite{
-        padding-top: 20px;
-    }
-    .listaFooter .linkFooter{
-        text-decoration: none;
-        color:white;
-        font-size: 1rem;
-    }
+h2{
+    display: inline-block;
+    position: relative;
+} 
+h2::after, h2::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: black;
+    top: 0.6em;
+}
+h2::before{
+    left: -140px;
+}
+h2::after{
+    right: -140px;
+}
+.secciones{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pie{
+    background-color: black;
+}
+span{
+    font-size: 30px;
+}
+.headerFooter{
+    justify-content: space-between;
+    padding: 10px;
+}
+.seccionesFooter{
+    justify-content: space-evenly;
+}
+.linkFooter{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+.formulario{
+    gap: 10px;
+}
+
+.derechos{
+    background-color: rgb(16, 16, 16);
 }
