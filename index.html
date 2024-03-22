@@ -6,63 +6,188 @@
         <title>Blog de Viaje</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <script src="https://kit.fontawesome.com/a9a110eaf7.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/estilos.css">
+        
+
     </head>
     <body>
-        <header class="header">
-           <a href="#">
-            <img class="logoPrincipal" src="./assets/img/logo.png.png" alt="Logo">
-           </a>
-            <nav>
-                <ul class="listaNav"> 
-                  <li class="listaItem"><a class="linkNav" href="#">Inicio</a></li>
-                  <li class="listaItem"><a class="linkNav" href="./pages/nuestrosviajes.html">Nuestros Viajes</a></li>
-                  <li class="listaItem"><a class="linkNav" href="./pages/nosotros.html">Nosotros</a></li>
-                  <li class="listaItem"><a class="linkNav" href="./pages/contacto.html">Contacto</a></li>
-                  <li class="listaItem"><a class="linkNav" href="./pages/infoutil.html">Info Util</a></li>             
-                </ul>
-            </nav>
+        
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bgNavegacion">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./assets/img/logo.png.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                      <li class="nav-item">
+                        <a class="nav-link active colorBlanco" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        
+                        <a class="nav-link colorBlanco " href="./pages/nuestrosviajes.html">Nuestros Viajes</a>
+                      </li>
+                      <li class="nav-item">
+                
+                        <a class="nav-link colorBlanco" href="./pages/nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                
+                        <a class="nav-link colorBlanco " href="./pages/contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                
+                        <a class="nav-link colorBlanco " href="./pages/infoutil.html">Info Util</a>
+                      </li>
+                     
+                      
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+           
             
         </header>
-        <main class="mainIndex">
-            <section class="seccionTitulo">
-                <h1>Viajar, es vivir</h1>
-                <p class="parrafoInicio">¿Te gusta la aventura tanto como a nosotros?</p>
-                <p class="parrafoInicio">¡Vamos a explorar el mundo juntos!</p>
-                <a class="linkEncontranosIndex" href="#footer">ENCONTRANOS</a>
-            </section>
-    
-            
-            <section class="seccionTarjetas">
-                <h2>INFORMACIÓN DESTACADA</h2>
-                <section class="tarjeta">
-                    <h4>INFORMACIÓN ÚTIL</h4>
-                    <a href="./pages/infoutil.html"><img class="tamañoImg" src="./assets/img/globe-trotter-1828079_640.jpg" alt=""></a> 
-                
-                </section>
-              
-             <section class="tarjeta">
-                <h4>NUESTROS VIAJES</h4>
-                 <a href="./pages/nuestrosviajes.html">  <img class="tamañoImg" src="./assets/img/photographer-407068_640.jpg" alt="" ></a>
+        <main class="pt-3">
+        
+        
+        
+          <section class="d-block d-md-flex imgFondo text-black flex-column align-items-center justify-content-end ">
+          <h1 class="tituloPrincipal fs-1"> VIAJAR, ES VIVIR</h1>
+          <p class="fs-5">¿Te gusta la aventura tanto como a nosotros?</p>
+          <p class="fs-2">¡VAMOS A EXPLORAR EL MUNDO JUNTOS!</p>
+          </section>
+          
+        
+       
+        <div class="tituloPrincipal pt-5">
+            <h2 class="lines-effect" >
+                Información Destacada
+            </h2>
+        </div>
+        
+        <div class="container pt-5 mb-5">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <a href="./pages/infoutil.html"><img class="imagen" src="./assets/img/info util.jpg" alt=""></a>
+                <div class="card-body">
+                  <h5 class="card-title">Información Útil</h5>
                  
-             </section>
-             <section class="tarjeta">
-                <h4>NOSOTROS</h4>
-                 <a href="./pages/nosotros.html"><img class="tamañoImg" src="./assets/img/couple-5267726_640.jpg" alt=""></a>
-             </section>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a href="./pages/nuestrosviajes.html">  <img class="imagen" src="./assets/img/nuestros viajes.jpg" alt="" ></a>
+                <div class="card-body">
+                  <h5 class="card-title">Nuestros Viajes</h5>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a  href="./pages/nosotros.html"><img class="imagen" src="./assets/img/nosotros.jpg" alt=""></a>
+                <div class="card-body">
+                  <h5 class="card-title">Nosotros</h5>
+                 
+                </div>
+              </div>
+            </div>
+            
+            </div>
+          </div>
+          
+        </div>
+           
+           
+         <div class="tituloPrincipal">
+         <h2 class=" lines-effect">
+          Últimos Articulos Del Blog
+         </h2>
+        
+         </div>
 
-            </section>
+         <div class="conteiner row mb-5 pt-3 justify-content-center ">
+         
+          <div class="card m-2" style="width: 18rem;">
+            <img src="./assets/img/index1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Consejos para visitar el Parque Nacional Erawan en Tailandia</h5>
+              <p class="card-text">A una horita de coche al oeste de Kanchanaburi, el Parque Nacional Erawan se ha convertido en uno de los espacios naturales más populares y sorprendentes de toda Tailandia. Su principal atracción es la fotogénica y singular cascada dividida en niveles, que forma piscinas naturales donde darse un baño refrescante, y que podrás remontar a</p>
+              <a href="#" class="btn btn-primary">Leer más..</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 18rem;">
+            <img src="./assets/img/index2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ámsterdam en 3 días: itinerario diario con mapa</h5>
+              <p class="card-text">¿Vas a visitar Ámsterdam durante 3 días y buscas cómo organizarte para sacarle el máximo partido a tu tiempo? En este post te presentamos un itinerario de 3 días en Ámsterdam con planes diarios, consejos prácticos y mapas detallados para que puedas aprovechar cada instante de tu viaje. La capital de los Países Bajos es una</p>
+              <a href="#" class="btn btn-primary">Leer más..</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 18rem;">
+            <img src="./assets/img/index3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">10 restaurantes donde comer en Florencia (bien y barato)</h5>
+              <p class="card-text">La gastronomía de cada lugar es uno de los aspectos que nos gusta explorar cada vez más en nuestros viajes (así nos estamos poniendo de fuertes). Florencia no fue una excepción y gracias a consejos de amigos, a nuestras visitas y a informarnos un poquito online, armamos una mini-guía para comernos la ciudad. ¿El resultado?</p>
+              <a href="#" class="btn btn-primary">Leer más..</a>
+            </div>
+  
+          </div>
+          <div class="card m-2" style="width: 18rem;">
+            <img src="./assets/img/index4.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mejor seguro de viaje para Colombia</h5>
+              <p class="card-text">¿Viajas a Colombia y tienes unas cuantas dudas a la hora de contratar el seguro de viaje? Basándonos en nuestra experiencia, vamos a hablarte sobre la sanidad del país, te contaremos nuestra visita de urgencia al hospital en Medellín, compararemos entre diferentes pólizas que hay en el mercado y finalmente te recomendaremos el que para</p>
+              <a href="#" class="btn btn-primary">Leer más..</a>
+            </div>
+  
+          </div>
+
+         </div>
+           
                
             
     
         </main>
-        <footer id="footer"> 
-            <a href="#">
+        <footer class="pie text-white conteiner ">
+          <div class="headerFooter d-flex align-items-center col-12 col-md-12">
+            <div class="align-items-center">
+              <a href="#">
                 <img src="./assets/img/logo.png.png" alt="Logo">
 
-            </a>
-            <nav class="contenidoFooter">
-                <h4>CONTENIDO</h4>
+              </a>          
+            </div>
+            <div class="redes ">
+              <span class="instagram">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </span>
+             
+              <span class="facebook">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              </span>
+              
+              <span class="youtube">
+                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                
+              </span>
+              
+              <span class="twitter">
+                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              </span>
+            </div>
+
+          </div>
+          <hr>
+          <div class="seccionesFooter d-flex col-12 col-md-12">
+            <div>
+             <u> <h4>CONTENIDO</h4></u> 
                 <ul class="listaFooter"> 
                   <li><a class="linkFooter" href="#">Inicio</a></li>
                   <li><a class="linkFooter" href="./pages/nuestrosviajes.html">Nuestros Viajes</a></li>
@@ -70,33 +195,40 @@
                   <li><a class="linkFooter" href="./pages/contacto.html">Contacto</a></li>
                   <li><a class="linkFooter" href="./pages/infoutil.html">Info Util</a></li>             
                 </ul>
-            </nav>
-            <nav class="infoFooter">
-               <h4>MAS INFORMACIÓN</h4>
+         
+            </div>
+            <div>
+              <u><h4>MAS INFORMACIÓN</h4></u>
                 <ul class="listaFooter"> 
-                  <li><a class="linkFooter" href="./pages/404.html">VISAS DE TRABAJO</a></li>
-                  <li><a class="linkFooter" href="./pages/404.html">VISAS DE ESTUDIO</a></li>
-                  <li><a class="linkFooter" href="./pages/404.html">¿VUELOS BARATOS?</a></li>
+                  <li><a class="linkFooter" href="./pages/404.html">Visas De Trabajo</a></li>
+                  <li><a class="linkFooter" href="./pages/404.html">Visas De Estudio</a></li>
+                  <li><a class="linkFooter" href="./pages/404.html">¿Vuelos Baratos?</a></li>
                                
                 </ul>
-            </nav>
-            <section class="encontranosFooter">
-                <h4>ENCONTRANOS</h4>
+            </div>
+            
+            <div>
+              <u><h4>ENCONTRANOS</h4></u>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.2760000894527!2d-60.65319399999998!3d-32.94372179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab40ed8e9bd9%3A0x4d187797ceed5!2sBlvd.%20Oro%C3%B1o%20%26%20C%C3%B3rdoba%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1707714730826!5m2!1ses!2sar" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-            <section class="suscribite">
-                <h4>SUSCRIBITE PARA MAS INFORMACIÓN</h4>
-                <form action="./pages/404.html" method="post">
-                    <input type="email" placeholder="ejemplo@ejemplo.com" required id="email" name="email"> 
-                    <input type="submit" value="SUSCRIBIRME" id="">
+            </div>
+            <div>
+              <u><h4>SUSCRIBITE</h4></u>
+              <form class="d-flex flex-column formulario" action="./pages/404.html" method="post">
+                <input type="email" placeholder="ejemplo@ejemplo.com" required id="email" name="email"> 
+                <input type="submit" value="SUSCRIBIRME" id="">
 
-                </form>
-            </section>
-            <section class="redesFooter">
-                <h4>SEGUINOS EN NUESTRAS REDES</h4>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            </section> 
+            </form>
+            </div>
+
+          </div>
+          <div class="derechos d-flex align-items-center justify-content-center">
+            <p >Copyright (c) 2003 Company Name
+              All Rights Reserved  
+            </p>
+          </div>
+         
         </footer>
+       
+        <script src="./js/bootstrap.bundle.min.js"> </script>
     </body>
 </html> 
