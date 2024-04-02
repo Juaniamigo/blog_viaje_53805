@@ -12,11 +12,13 @@ body{
 }
 
 .imagen{
-    height: 100;
-    width: 100;
+   
     object-fit: cover;
     
+    
 }
+
+
 .bgNavegacion{
     background-color: black;
 }
@@ -26,7 +28,9 @@ body{
     height: 100%;
 }
 .infoDestacada{
-    text-align: center;
+    text-align: justify;
+     
+    
     
 }
 .tituloNosotros{
@@ -43,6 +47,7 @@ body{
     background-size: cover;
     background-position: center;
     height: 80vh;
+    object-fit:cover;
     .tituloPrincipal{
         font-size: 5rem;
         font-weight: 800;
@@ -89,6 +94,8 @@ h2::after{
 
 .pie{
     background-color: black;
+    height: 100%;
+    width: 100%;;
 }
 span{
     font-size: 30px;
@@ -99,6 +106,7 @@ span{
 }
 .seccionesFooter{
     justify-content: space-evenly;
+    
 }
 .linkFooter{
     text-decoration: none;
@@ -112,5 +120,99 @@ ul{
 }
 
 .derechos{
-    background-color: rgb(16, 16, 16);
+    background-color: black;
+    justify-content: center;
+    width: 90%;
+    
 }
+
+
+h4{
+    padding-left: 20px;
+}
+  
+
+.subtitulo{
+    font-weight: 500;
+}
+.main{
+    background-color: rgb(235, 233, 233);
+}
+.capa{
+    padding: 10px 10%;
+}
+#card-area{
+    padding: 50px 0;
+}
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+.box{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    
+}
+.box img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.overlay{
+    height: 0;
+    width: 100%;
+    background: linear-gradient( transparent , #1c1c1c 58%);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+
+}
+.overlay h3{
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 80%;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.overlay a{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #262626;
+    text-decoration: none;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 15px;
+
+}
+.boxLhover img{
+    transform: scale(1.2);
+    height: 100%;
+    width: 100%;
+
+}
+.box:hover .overlay{
+    height: 100%;
+}
+
+
+
